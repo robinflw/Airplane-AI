@@ -1,6 +1,18 @@
 ---
 name: airplane-ai
-description: "Give LM Studio or Ollama users a browser-based AI chat interface that works completely offline. Use when the user wants an offline-capable personal AI, needs a quick chat UI for their local LLM, or wants to chat with AI on airplanes, trains, or anywhere without internet. Trigger keywords: offline AI, local LLM chat, airplane mode assistant, LM Studio web UI, 断网AI, 离线聊天, AirplaneAI."
+description: >-
+  Give LM Studio or Ollama users a browser-based AI chat interface that works
+  completely offline. Use when the user wants an offline-capable personal AI,
+  needs a quick chat UI for their local LLM, or wants to chat with AI on
+  airplanes, trains, or anywhere without internet.
+triggers:
+  - offline AI
+  - local LLM chat
+  - airplane mode assistant
+  - LM Studio web UI
+  - 断网AI
+  - 离线聊天
+  - AirplaneAI
 ---
 
 # AirplaneAI / 断网 AI 助手
