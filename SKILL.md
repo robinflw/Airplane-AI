@@ -129,7 +129,12 @@ python3 scripts/offline_chat.py --persona-file my-persona.txt
 
 ## 🍎 macOS 双击启动
 
-见 [references/macos-app-guide.md](references/macos-app-guide.md) — 用 Automator 打包成 .app，双击即用。
+用 Mac 自带的「自动操作」打包成 .app：
+1. 打开启动台，搜索「自动操作」→ 新建「应用程序」
+2. 添加「运行 Shell 脚本」，粘贴：`/usr/bin/python3 "$HOME/airplane-ai/scripts/offline_chat.py" --llm-url "http://127.0.0.1:1234/v1/chat/completions"`
+3. 保存到桌面或应用程序文件夹，双击即可启动
+
+详细图文教程见 [GitHub references](https://github.com/robinflw/Airplane-AI/tree/main/references)。
 
 ---
 
