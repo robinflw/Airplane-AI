@@ -100,7 +100,7 @@ python3 scripts/offline_chat.py \
 | `--port` | `8765` | 端口 |
 | `--llm-url` | `http://127.0.0.1:1234/v1/chat/completions` | LLM 接口 |
 | `--llm-model` | (自动探测) | 模型名 |
-| `--persona-file` | (无) | 自定义人设 prompt |
+| `--persona-file` | — | 自定义人设 prompt（强烈推荐） |
 | `--no-browser` | off | 不自动打开浏览器 |
 | `--check` | — | 运行健康诊断并退出 |
 
